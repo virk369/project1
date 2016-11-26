@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automoblox</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://v4-alpha.getbootstrap.com/examples/navbar-top-fixed/navbar-top-fixed.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/thumbnail.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbar-header">
+        <div class="container-fluid inverse p-a">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link activated">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="buy.html" class="nav-link">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <img src="images/fb.svg" alt="Facebook icon" class="social">
+          <img src="images/twitter.svg" alt="Twitter icon" class="social">
+        </div>
+      </div>
+      <!-- button for the navbar to popout -->
+      <div class="navbar navbar-default navbar-static-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header">
+          ☰
+        </button>
+        <a href="index.html">
+          <img src="images/logo.jpg" alt="Automoblox Loggo" width="95px" class="img-thumbnail center-block">
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <!-- slider -->
+      <div class="main">
+        <div id="mi-slider" class="mi-slider">
+          <ul>
+            <li><a href="a9.html"><img src="images/a9/a9_large.jpg" alt="A9"></a></li>
+
+          </ul>
+          <ul>
+            <li><a href="a9s.html"><img src="images/a9s/a9s_large.jpg" alt="A9s"></a></li>
+          </ul>
+          <ul>
+            <li><a href="s9.html"><img src="images/s9/s9_large.jpg" alt="s9"></a></li>
+          </ul>
+          <ul>
+            <li><a href="s9r.html"><img src="images/s9r/s9r_large.jpg" alt="S9r"></a></li>
+          </ul>
+          <ul>
+            <li><a href="t9.html"><img src="images/t9/t9_large.jpg" alt="T9"></a></li>
+          </ul>
+          <nav>
+            <a href="#">A9</a>
+            <a href="#">A9s</a>
+            <a href="#">S9</a>
+            <a href="#">S9r</a>
+            <a href="#">T9</a>
+            <h4>Click on the Image for more Details.</h4>
+          </nav>
+
+        </div>
+        <!-- mi-slider -->
+      </div>
+      <!-- main -->
+    </div>
+    <!-- /.container -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+    <!-- modernizer -->
+    <script src="js/modernizr.custom.63321.js"></script>
+
+    <!-- thumnail tutorial from http://tympanus.net/codrops/2012/12/31/how-to-create-a-simple-multi-item-slider/ -->
+    <script src="js/thumbnail.js"></script>
+    <script>
+    $(function() {
+
+      $( '#mi-slider' ).catslider();
+
+    });
+    </script>
+  </body>
+</html>
